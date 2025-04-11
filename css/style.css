@@ -59,7 +59,7 @@
         font-weight: 300;
         color: #404040;
         text-shadow: 3px 0px 3px pink;
-        margin-left: 80px;
+        margin-left: 100px;
         animation: colorExample 2s
         infinite;
     }
@@ -88,6 +88,7 @@
         display: inline block;
         text-wrap: nowrap;
         font-size: 20px;
+        
     }   
 
 
