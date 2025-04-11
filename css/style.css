@@ -1107,7 +1107,6 @@
     .resume::before {
       
         font-weight: 200;
-        top: -37px;
         font-size: 70px;
         color: transparent;
         z-index: -1;
