@@ -36,6 +36,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+     
     }
 
     nav {
@@ -151,13 +152,11 @@
     .portfolio {
         font-family: "Gabriela", serif;
         position: relative;
-        top: 10px;
-        /* Adjust positioning */
+        top: 30px;
         right: -100px;
         margin-top: 40px;
         font-size: 60px;
         color: rgb(232, 188, 185);
-        /* Main text color */
         font-weight: bold;
         text-align: center;
     }
@@ -167,7 +166,7 @@
         content: "Portfolio";
         position: absolute;
         font-weight: 200;
-        top: -45px;
+        top: -65px;
         left: 5%;
         transform: translateX(-50%);
         font-size: 100px;
@@ -231,7 +230,7 @@
         font-family: "Gabriela", serif;
         font-weight: 300;
         font-size: 100px;
-        margin-right: 7%;
+        margin-right: -10%;
         color: pink;
         text-shadow: 8px 4px rgba(255, 255, 255, 0.361);
         animation: colorExample 2s
@@ -253,7 +252,7 @@
     .introduction a {
         margin-top: 30px;
         margin-left: 35px;
-        width: 66%;
+        width: 80%;
         padding: 8px;
         border-radius: 30px;
         background-color: pink;
@@ -468,16 +467,17 @@
         width: 50%;
         height: 50vw;
         position: absolute;
-        top: 140%;
+        top: 180%;
         right: 0;
     }
 
     .hobbies-interest h1 {
         font-family: "Alex Brush", cursive;
         font-weight: 300;
-        font-size: 120px;
+        font-size: 80px;
         color: black;
-        margin-right: 250px;
+        margin-right: 200px;
+       
         text-align: center;
         text-shadow: 8px 4px rgba(255, 255, 255, 0.361);
     }
@@ -518,7 +518,7 @@
 
     .education {
         width: 50%;
-        margin-top: 50px;
+        margin-top: 80px;
         height: 50vw;
     }
 
@@ -604,7 +604,7 @@
 
     .skills {
         width: 50%;
-        margin-top: 20%;
+        margin-top: 50%;
         height: 50vw;
         position: absolute;
         top: 175%;
@@ -614,8 +614,9 @@
     .skills .resume {
         font-family: "Alex Brush", cursive;
         font-weight: bold; 
-        font-size: 80px;
+        font-size: 70px;
         color: black;
+        padding-top: 100px;
         text-align: center;
         text-shadow: 8px 4px rgba(255, 255, 255, 0.361);
         position: relative;
@@ -628,7 +629,7 @@
         content: "RESUME";
         position: absolute;
         font-weight: 200;
-        top: -40px;
+        top: 60px;
         left: 50%;
         transform: translateX(-50%);
         font-size: 100px;
@@ -642,6 +643,8 @@
 
     .skills h2 {
         text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
         animation: colorExample 2s
         infinite;
     }
@@ -760,7 +763,7 @@
         background-color: transparent;
         height: 50px;
         width: 100vw;
-        margin-top: 150px;
+        margin-top: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
